@@ -1,0 +1,17 @@
+{
+  "name": "frog-bun",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "serve": "bun run src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^4",
+    "frog": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun": "latest"
+  }
+}
